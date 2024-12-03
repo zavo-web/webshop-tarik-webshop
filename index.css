@@ -58,12 +58,13 @@ header .navigation a {
 .header-icons a {
     margin-left: 15px;
     color: white;
+    font-weight: bold;
 }
 
 .banner {
     text-align: center;
     padding: 20px;
-    background-color: blue;
+    background-color: rgb(12, 89, 205);
 }
 
 .banner h2 {
@@ -103,7 +104,7 @@ header .navigation a {
 }
 
 .product-overzicht {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
